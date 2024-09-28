@@ -31,5 +31,13 @@ namespace DoAnCoSoNganh.Controllers
             
             return View();
         }
+        public ActionResult PartialTopbar()
+        {
+            return PartialView("_PartialTopbar");
+        }
+        public ActionResult PartialNav()
+        {
+            return PartialView("_PartialNav");
+        }
     }
 }
