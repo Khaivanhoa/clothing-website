@@ -1,0 +1,248 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+<!-- Navbar Start -->
+<div class="container-fluid px-0">
+    <!-- Navbar End -->
+    <!-- Page Header Start -->
+    <div class="container-fluid bg-secondary mb-5">
+        <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
+            <h1 class="font-weight-semi-bold text-uppercase mb-3">Chi tiết sản phẩm</h1>
+           
+        </div>
+    </div>
+
+    <!-- Page Header End -->
+    <!-- Shop Detail Start -->
+    <div class="container-fluid py-5">
+        <div class="row px-xl-5">
+            <div class="col-lg-5 pb-5">
+                <div id="product-carousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner border">
+                        <div class="carousel-item active">
+                            <img class="w-100 h-100" src="~/Content/img/product1.jpg" alt="Image">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100 h-100" src="~/Content/img/product2.jpg" alt="Image">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100 h-100" src="~/Content/img/product3.jpg" alt="Image">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100 h-100" src="~/Content/img/product4.jpg" alt="Image">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#product-carousel" data-slide="prev">
+                        <i class="fa fa-2x fa-angle-left text-dark"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#product-carousel" data-slide="next">
+                        <i class="fa fa-2x fa-angle-right text-dark"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-7 pb-5">
+                <h3 class="font-weight-semi-bold">Áo phông</h3>
+                <div class="d-flex mb-3">
+                    <div class="text-dark mr-2">
+                        <small class="fas fa-star"></small>
+                        <small class="fas fa-star"></small>
+                        <small class="fas fa-star"></small>
+                        <small class="fas fa-star-half-alt"></small>
+                        <small class="far fa-star"></small>
+                    </div>
+                </div>
+                <h3 class="font-weight-semi-bold mb-4">100.000 VND</h3>
+
+                <div class="mb-3" style="display: flex; align-content: center;">
+                    <p style="font-size: 16px; color: #000; margin: 0 12px 0 0; font-weight: 500;">Size:</p>
+                    <form>
+                        <div style="display: inline-block; margin-right: 10px;">
+                            <input type="radio" id="size-1" name="size" style="accent-color: #000; cursor: pointer; transform: scale(1.5); margin-right: 5px;">
+                            <label for="size-1" style="color: #000; cursor: pointer;">XS</label>
+                        </div>
+                        <div style="display: inline-block; margin-right: 10px;">
+                            <input type="radio" id="size-2" name="size" style="accent-color: #000; cursor: pointer; transform: scale(1.5); margin-right: 5px;">
+                            <label for="size-2" style="color: #000; cursor: pointer;">S</label>
+                        </div>
+                        <div style="display: inline-block; margin-right: 10px;">
+                            <input type="radio" id="size-3" name="size" style="accent-color: #000; cursor: pointer; transform: scale(1.5); margin-right: 5px;">
+                            <label for="size-3" style="color: #000; cursor: pointer;">M</label>
+                        </div>
+                        <div style="display: inline-block; margin-right: 10px;">
+                            <input type="radio" id="size-4" name="size" style="accent-color: #000; cursor: pointer; transform: scale(1.5); margin-right: 5px;">
+                            <label for="size-4" style="color: #000; cursor: pointer;">L</label>
+                        </div>
+                        <div style="display: inline-block; margin-right: 10px;">
+                            <input type="radio" id="size-5" name="size" style="accent-color: #000; cursor: pointer; transform: scale(1.5); margin-right: 5px;">
+                            <label for="size-5" style="color: #000; cursor: pointer;">XL</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="mb-3" style="display: flex; align-content: center;">
+                    <p style="font-size: 16px; color: #000; margin: 0 12px 0 0; font-weight: 500;">Màu sắc:</p>
+                    <form>
+                        <div style="display: inline-block; margin-right: 10px;">
+                            <input type="radio" id="color-1" name="color" style="accent-color: #000; cursor: pointer; transform: scale(1.5); margin-right: 5px;">
+                            <label for="color-1" style="color: #000; cursor: pointer;">Black</label>
+                        </div>
+                        <div style="display: inline-block; margin-right: 10px;">
+                            <input type="radio" id="color-2" name="color" style="accent-color: #fff; cursor: pointer; transform: scale(1.5); margin-right: 5px;">
+                            <label for="color-2" style="color: #000; cursor: pointer;">White</label>
+                        </div>
+                        <div style="display: inline-block; margin-right: 10px;">
+                            <input type="radio" id="color-3" name="color" style="accent-color: #ff0000; cursor: pointer; transform: scale(1.5); margin-right: 5px;">
+                            <label for="color-3" style="color: #000; cursor: pointer;">Red</label>
+                        </div>
+                        <div style="display: inline-block; margin-right: 10px;">
+                            <input type="radio" id="color-4" name="color" style="accent-color: #0000ff; cursor: pointer; transform: scale(1.5); margin-right: 5px;">
+                            <label for="color-4" style="color: #000; cursor: pointer;">Blue</label>
+                        </div>
+                        <div style="display: inline-block; margin-right: 10px;">
+                            <input type="radio" id="color-5" name="color" style="accent-color: #008000; cursor: pointer; transform: scale(1.5); margin-right: 5px;">
+                            <label for="color-5" style="color: #000; cursor: pointer;">Green</label>
+                        </div>
+                    </form>
+                </div>
+                <div style="display: flex; align-items: center; margin-bottom: 16px; padding-top: 8px;">
+                    <p style="margin-right: 8px; margin-bottom: 0;">Số lượng:</p>
+                    <div style="display: flex; width: 130px; margin-right: 12px;">
+                        <button id="btn-minus" style="background-color: #343a40; color: white; border: none; padding: 8px; cursor: pointer;">
+                            <i class="fa fa-minus"></i>
+                        </button>
+                        <input id="quantity" type="text" style="background-color: #6c757d; color: white; text-align: center; border: 1px solid #ced4da; padding: 8px; width: 40px; margin: 0;" value="1">
+                        <button id="btn-plus" style="background-color: #343a40; color: white; border: none; padding: 8px; cursor: pointer;">
+                            <i class="fa fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <script>
+                    const btnMinus = document.getElementById('btn-minus');
+                    const btnPlus = document.getElementById('btn-plus');
+                    const quantityInput = document.getElementById('quantity');
+
+                    btnMinus.addEventListener('click', () => {
+                        let currentValue = parseInt(quantityInput.value);
+                        if (currentValue > 0) {
+                            quantityInput.value = currentValue - 1;
+                        }
+                    });
+
+                    btnPlus.addEventListener('click', () => {
+                        let currentValue = parseInt(quantityInput.value);
+                        quantityInput.value = currentValue + 1;
+                    });
+                </script>
+
+
+                <div style="display: flex; align-items: center; margin-top: 16px;">
+                    <button style="background-color: white; color: black; padding: 8px 16px; border: none; cursor: pointer; border-radius: 20px; border: 2px solid black;">
+                        Thêm vào giỏ hàng
+                    </button>
+                    <button style="background-color: #343a40; color: white; padding: 8px 16px; border: none; cursor: pointer; border-radius: 20px; margin-left: 12px; border: 2px solid black;">
+                        Thanh toán ngay
+                    </button>
+                </div>
+
+
+
+
+            </div>
+
+
+            <!-- Shop Detail End -->
+            <!-- Products Start -->
+            <div class="container-fluid py-5">
+                <div class="text-center mb-4">
+                    <h2 class="section-title px-5"><span class="px-2">Bạn có thể cũng thích</span></h2>
+                </div>
+                <div class="row px-xl-5">
+                    <div class="col">
+                        <div class="owl-carousel related-carousel">
+                            <div class="card product-item border-0">
+                                <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                                    <img class="img-fluid w-100" src="~/Content/img/product1.jpg" alt="">
+                                </div>
+                                <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                                    <h6 class="text-truncate mb-3">Áo phông</h6>
+                                    <div class="d-flex justify-content-center">
+                                        <h6>100.000 VND</h6><h6 class="text-muted ml-2"><del>100.000 VND</del></h6>
+                                    </div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between bg-light border">
+                                    <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-dark mr-1"></i>Xem chi tiết</a>
+                                    <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-dark mr-1"></i>Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="card product-item border-0">
+                                <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                                    <img class="img-fluid w-100" src="~/Content/img/product2.jpg" alt="">
+                                </div>
+                                <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                                    <h6 class="text-truncate mb-3">Áo phông</h6>
+                                    <div class="d-flex justify-content-center">
+                                        <h6>100.000 VND</h6><h6 class="text-muted ml-2"><del>100.000 VND</del></h6>
+                                    </div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between bg-light border">
+                                    <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-dark mr-1"></i>Thêm vào giỏ hàng</a>
+                                    <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-dark mr-1"></i>Xem chi tiết</a>
+                                </div>
+                            </div>
+                            <div class="card product-item border-0">
+                                <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                                    <img class="img-fluid w-100" src="~/Content/img/product3.jpg" alt="">
+                                </div>
+                                <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                                    <h6 class="text-truncate mb-3">Áo phông</h6>
+                                    <div class="d-flex justify-content-center">
+                                        <h6>100.000 VND</h6><h6 class="text-muted ml-2"><del>100.000 VND</del></h6>
+                                    </div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between bg-light border">
+                                    <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-dark mr-1"></i>Xem chi tiết</a>
+                                    <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-dark mr-1"></i>Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="card product-item border-0">
+                                <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                                    <img class="img-fluid w-100" src="~/Content/img/product4.jpg" alt="">
+                                </div>
+                                <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                                    <h6 class="text-truncate mb-3">Áo phông</h6>
+                                    <div class="d-flex justify-content-center">
+                                        <h6>100.000 VND</h6><h6 class="text-muted ml-2"><del>100.00 VND</del></h6>
+                                    </div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between bg-light border">
+                                    <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-dark mr-1"></i>Xem chi tiết</a>
+                                    <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-dark mr-1"></i>Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                            <div class="card product-item border-0">
+                                <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
+                                    <img class="img-fluid w-100" src="~/Content/img/product5.jpg" alt="">
+                                </div>
+                                <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                                    <h6 class="text-truncate mb-3">Áo phông</h6>
+                                    <div class="d-flex justify-content-center">
+                                        <h6>100.000 VND</h6><h6 class="text-muted ml-2"><del>100.000 VND</del></h6>
+                                    </div>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between bg-light border">
+                                    <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-dark mr-1"></i>Xem chi tiết</a>
+                                    <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-dark mr-1"></i>Thêm vào giỏ hàng</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products End -->
+
+        </div>
+</div>
+</div>

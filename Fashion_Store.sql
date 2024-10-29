@@ -21,7 +21,7 @@ CREATE TABLE San_Pham (
     ngay_cap_nhat DATETIME DEFAULT GETDATE(),
     trang_thai BIT DEFAULT 1,
     FOREIGN KEY (danh_muc_id) REFERENCES Danh_Muc(danh_muc_id) ON DELETE SET NULL
-);
+);	
 
 -- Bảng Người Dùng
 CREATE TABLE Nguoi_Dung (
