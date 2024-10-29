@@ -39,5 +39,37 @@ namespace DoAnCoSoNganh.Controllers
         {
             return PartialView("_PartialNav");
         }
+        public ActionResult PartialFeatured()
+        {
+            return PartialView("_PartialFeatured");
+        }
+        public ActionResult PartialCategories()
+        {
+            return PartialView("_PartialCategories");
+        }
+        public ActionResult PartialOffer()
+        {
+            return PartialView("_PartialOffer");
+        }
+        public ActionResult PartialProducts()
+        {
+            return PartialView("_PartialProducts");
+        }
+        public ActionResult PartialSubscribe()
+        {
+            return PartialView("_PartialSubscribe");
+        }
+        public ActionResult PartialProducts2()
+        {
+            return PartialView("_PartialProducts2");
+        }
+        public ActionResult PartialVendor()
+        {
+            return PartialView("_PartialVendor");
+        }
+        public ActionResult PartialFooter()
+        {
+            return PartialView("_PartialFooter");
+        }
     }
 }

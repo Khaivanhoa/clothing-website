@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\HomePageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -149,7 +150,32 @@
     <Content Include="Content\css\style.css" />
     <Content Include="Content\css\style.min.css" />
     <Content Include="Content\detail.html" />
-    <Content Include="Content\img\carousel-1.jpg" />
+    <Content Include="Content\img\aosomi.jpg" />
+    <Content Include="Content\img\giay.jpg" />
+    <Content Include="Content\img\logo-acb.jpg" />
+    <Content Include="Content\img\logo-bidv.jpg" />
+    <Content Include="Content\img\logo-mbbank.png" />
+    <Content Include="Content\img\logo-ngan-hang-shb.jpg" />
+    <Content Include="Content\img\logo-techcombank.jpg" />
+    <Content Include="Content\img\logo-tpbank.jpg" />
+    <Content Include="Content\img\logo-vib.jpg" />
+    <Content Include="Content\img\logo-vietinbank.jpg" />
+    <Content Include="Content\img\logo-vpbank.jpg" />
+    <Content Include="Content\img\product.jpg" />
+    <Content Include="Content\img\product1.jpg" />
+    <Content Include="Content\img\product10.jpg" />
+    <Content Include="Content\img\product2.jpg" />
+    <Content Include="Content\img\product3.jpg" />
+    <Content Include="Content\img\product4.jpg" />
+    <Content Include="Content\img\product5.jpg" />
+    <Content Include="Content\img\product6.jpg" />
+    <Content Include="Content\img\product7.jpg" />
+    <Content Include="Content\img\product8.jpg" />
+    <Content Include="Content\img\product9.jpg" />
+    <Content Include="Content\img\quanau.jpg" />
+    <Content Include="Content\img\quantay.png" />
+    <Content Include="Content\img\slider.png" />
+    <Content Include="Content\img\slider1.jpg" />
     <Content Include="Content\img\carousel-2.jpg" />
     <Content Include="Content\img\cat-1.jpg" />
     <Content Include="Content\img\cat-2.jpg" />
@@ -168,6 +194,9 @@
     <Content Include="Content\img\product-6.jpg" />
     <Content Include="Content\img\product-7.jpg" />
     <Content Include="Content\img\product-8.jpg" />
+    <Content Include="Content\img\slider_2.png" />
+    <Content Include="Content\img\slider_3.jpg" />
+    <Content Include="Content\img\suits.png" />
     <Content Include="Content\img\user.jpg" />
     <Content Include="Content\img\vendor-1.jpg" />
     <Content Include="Content\img\vendor-2.jpg" />
@@ -324,6 +353,21 @@
     <Content Include="Views\Home\Test.cshtml" />
     <Content Include="Views\Shared\_PartialTopbar.cshtml" />
     <Content Include="Views\Shared\_PartialNav.cshtml" />
+    <Content Include="Views\Shared\_PartialFeatured.cshtml" />
+    <Content Include="Views\Shared\_PartialCategories.cshtml" />
+    <Content Include="Views\Shared\_PartialOffer.cshtml" />
+    <Content Include="Views\Shared\_PartialProducts.cshtml" />
+    <Content Include="Views\Shared\_PartialSubscribe.cshtml" />
+    <Content Include="Views\Shared\_PartialProducts2.cshtml" />
+    <Content Include="Views\Shared\_PartialVendor.cshtml" />
+    <Content Include="Views\Shared\_PartialFooter.cshtml" />
+    <Content Include="Views\Shared\_LayoutUser.cshtml" />
+    <Content Include="Views\HomePage\Index.cshtml" />
+    <Content Include="Views\HomePage\Detail.cshtml" />
+    <Content Include="Views\HomePage\Contact.cshtml" />
+    <Content Include="Views\HomePage\Checkout.cshtml" />
+    <Content Include="Views\HomePage\Cart.cshtml" />
+    <Content Include="Views\HomePage\DetailShop.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,136 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+<style>
+
+</style>
+<!-- Navbar Start -->
+<!-- Navbar End -->
+<!-- Page Header Start -->
+<div class="container-fluid bg-secondary mb-5">
+    <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
+        <h1 class="font-weight-semi-bold text-uppercase mb-3">Thanh toán</h1>
+       
+    </div>
+</div>
+<!-- Page Header End -->
+<!-- Checkout Start -->
+<div class="container-lg pt-5">
+    <div class="row px-xl-5">
+        <div class="col-lg-8">
+            <div class="mb-4">
+                <h4 class="font-weight-semi-bold mb-4">Thông tin vận chuyển</h4>
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <!-- Sử dụng col-md-12 để chiếm toàn bộ chiều rộng -->
+                        <input class="form-control" type="text"  style="border: 1px solid black; border-radius: 20px; " placeholder="Họ tên người nhận">
+                    </div>
+                </div>
+
+                <div class="row g-2">
+                    <!-- Sử dụng row và g-2 để tạo khoảng cách giữa các cột -->
+                    <div class="col-md-6 form-group">
+                        <input class="form-control" type="text" placeholder="Số điện thoại" style="border: 1px solid black; border-radius: 20px; ">
+                    </div>
+                    <div class="col-md-6 form-group">
+                        <input class="form-control" type="text" placeholder="E-mail" style="border: 1px solid black; border-radius: 20px; ">
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <!-- Sử dụng col-md-12 để chiếm toàn bộ chiều rộng -->
+                        <input class="form-control" type="text" placeholder="Tỉnh/Thành phố, Quận/Huyện" style="border: 1px solid black; border-radius: 20px; ">
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <!-- Sử dụng col-md-12 để chiếm toàn bộ chiều rộng -->
+                        <input class="form-control" type="text" placeholder="Địa chỉ cụ thể" style="border: 1px solid black; border-radius: 20px; ">
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <!-- Sử dụng col-md-12 để chiếm toàn bộ chiều rộng -->
+                        <textarea class="form-control" placeholder="Lời nhắn" rows="4" style="height: 150px; resize: none; border: 1px solid black; border-radius: 20px; "></textarea>
+                    </div>
+                </div>
+
+
+            </div>
+           
+        </div>
+        <div class="col-lg-4">
+            <div class="card border-secondary mb-5">
+                <div class="card-header bg-secondary border-0">
+                    <h4 class="font-weight-semi-bold m-0">Thông tin đơn hàng</h4>
+                </div>
+                <div class="card-body">
+                    <h5 class="font-weight-medium mb-3">Sản phẩm</h5>
+                    <div class="d-flex justify-content-between">
+                        <p>Áo phông</p>
+                        <p>100.000 VND</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p>Áo phông</p>
+                        <p>100.000 VND</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p>Áo phông</p>
+                        <p>100.000 VND</p>
+                    </div>
+                    <hr class="mt-0">
+                    <div class="d-flex justify-content-between mb-3 pt-1">
+                        <h6 class="font-weight-medium">Tạm tính</h6>
+                        <h6 class="font-weight-medium">100.000 VND</h6>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <h6 class="font-weight-medium">Phí vận chuyển</h6>
+                        <h6 class="font-weight-medium">10.000 VND</h6>
+                    </div>
+                </div>
+                <div class="card-footer border-secondary bg-transparent">
+                    <div class="d-flex justify-content-between mt-2">
+                        <h5 class="font-weight-bold">Thành tiền</h5>
+                        <h5 class="font-weight-bold">100.000 VND</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-secondary mb-5">
+                <div class="card-header bg-secondary border-0">
+                    <h4 class="font-weight-semi-bold m-0">Phương thức thanh toán</h4>
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" name="payment" id="paypal">
+                            <label class="custom-control-label" for="paypal">VNPay</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" name="payment" id="directcheck">
+                            <label class="custom-control-label" for="directcheck">Thanh toán MoMo</label>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" name="payment" id="banktransfer">
+                            <label class="custom-control-label" for="banktransfer">Thanh toán COD</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer border-secondary bg-transparent">
+                    <button class="btn btn-lg btn-block"
+                            style=" background-color: #007bff; color: white;  border: none; border-radius: 8px; padding: 12px 24px; font-size: 1.25rem;  font-weight: bold; transition: background-color 0.3s ease;"
+                            onmouseover="this.style.backgroundColor='#0056b3'"
+                            onmouseout="this.style.backgroundColor='#007bff'">
+                        Thanh toán ngay
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Checkout End -->
